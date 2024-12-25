@@ -1,0 +1,128 @@
+@font-face {
+    font-family: roboto;
+    src: url(../font/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: raleway;
+    src: url(../font/Raleway.ttf);
+}
+body {
+    margin: 0;
+}
+.menu-humburger{
+    display:none;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    background: url(../img/title.png) center/cover no-repeat;;
+    height: 1080px;
+}
+.menu>ul{
+    display: flex;
+    padding: 0;
+    width: 50%;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+.menu>ul li{
+    display: block;
+    list-style: none;
+    font-family: roboto;
+    font-size: 24px;
+}
+.header{
+    height: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: raleway;
+}
+.subheader{
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    font-size: 24px;
+}
+.second-title{
+    font-size: 48px;
+    font-family: raleway;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+.columns{
+    display: flex;
+    width: 70%; 
+    margin: 50px auto;
+    font-size: 14px;
+    font-family: roboto;
+}
+.col1{
+    flex-basis: 50%; 
+    margin-right: 50px;
+}
+.col2{
+    flex-basis: 50%;
+    margin-left: 50px;
+}
+.hight{
+    display: flex;
+    margin: 50px 0 0 15%;
+}
+.left-text{
+    flex: 1 1 45%;
+    font-size: 14px;
+    font-family: roboto;
+
+}
+.right-img{
+    object-fit: contain;
+    flex: 1 1 55%;
+}
+.right-img img{
+    width: 100%;
+    height: auto;
+}
+.third-title{
+    font-family: raleway;
+    font-size: 42px;
+    text-align: center;
+    margin: 50px 0; 
+
+}
+.text-content p{
+    margin: 50px 50px 50px 0;
+}
+.command{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: 50px auto
+}
+.serfer div{
+    object-fit: contain;
+}
+.serfer div img{
+    width: 80%;
+    height: auto;
+}
+.serfer-text div:first-child{
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: bold;
+    text-align: center;
+}
+.serfer-text div:last-child{
+    font-size: 14px;
+    font-family: roboto;
+    text-align: center;
+}
+.footer{
+    width: 100vw;
+    background: #00b2a0;
+    margin-top: 100px;
+}
